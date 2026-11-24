@@ -1,0 +1,16 @@
+
+{
+  "required": true,
+  "package": "dev.aurora.visuals.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "EntityMixin",
+    "WorldMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "PlayerListHudMixin",
+    "LivingEntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
