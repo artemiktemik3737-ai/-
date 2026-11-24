@@ -1,0 +1,23 @@
+
+{
+  "schemaVersion": 1,
+  "id": "auroravisuals",
+  "version": "${version}",
+  "name": "Aurora Visuals",
+  "description": "Клиентский визуально-утилитарный мод: погода, эффекты ударов, прыжков и следов, See Invisible.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.aurora.visuals.AuroraClient"]
+  },
+  "mixins": [
+    { "config": "auroravisuals.mixins.json", "environment": "client" }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
